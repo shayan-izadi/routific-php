@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Routific\\": "lib/"
+            "ShayanIzadi\\Routific\\": "lib/"
         }
     },
     "license": "MIT",
