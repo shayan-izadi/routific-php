@@ -1,0 +1,25 @@
+{
+    "name": "shayanizadi/routific",
+    "description": "PHP library for the Routific API",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/psr7": "^1.7 || ^2.0",
+        "guzzlehttp/guzzle": "^6.4 || ^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Routific\\": "lib/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shayan Izadi",
+            "email": "shayanizadi6@gmail.com"
+        }
+    ]
+}
