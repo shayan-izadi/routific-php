@@ -44,9 +44,9 @@ class JobApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $data = json_decode($content, true);
+            
 
-            return $data;
+            return $content;
         } catch (RequestException $e) {
             $errorResponse = [
                 'error' => 'Failed to retrieve job details',

@@ -47,7 +47,7 @@ class VehicleRoutingApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content, true);
+            
 
             return $content;
         } catch (ClientException $e) {
