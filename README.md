@@ -132,6 +132,36 @@ $routific->jobApi->getJobDetails($key['job_id'])
 
 ```
 
+## For running tests
+
+If you wish to run tests, first you must change composer in this way:
+
+```bash
+"autoload": {
+        "psr-4": {
+            "ShayanIzadi\\Routific\\": "lib/"
+        }
+    },
+
+ //to
+ 
+"autoload": {
+        "psr-4": {
+            "Routific\\": "lib/"
+        }
+    },
+
+```
+
+Then run dump autoload command
+
+```bash
+
+   composer dump-autoload
+
+```
+
+
 ## Appreciate Contributions
 We welcome contributions from everyone! If you'd like to contribute to this project, follow these steps:
 
